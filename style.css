@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    background-image: url("./img/bg.jpg");
+}
+
+.montserrat {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bg-text {
+    background-color: rgba(255, 255, 255, 0.631);
+}
+
+.content{
+    max-width: 60%;
+    margin: auto;
+}
+
+.foto {
+    width: 100%;
+}
+
+.coelhos {
+    height: 250px;
+}
+
+@media(max-width: 900px){
+    .bg-text {
+        background-color: rgba(255, 255, 255, 0.355);
+    }
+    
+    .content{
+        max-width: 100%;
+    }
+
+    .coelhos {
+        height: 200px;
+    }
+}
